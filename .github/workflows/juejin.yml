@@ -1,9 +1,10 @@
 name: Growth
 
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+on: [push]
+
+# on:
+#   schedule:
+#     - cron: "0 0 * * *"
 
 jobs:
   growth:
